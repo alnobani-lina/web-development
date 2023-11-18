@@ -1,0 +1,153 @@
+body {
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+
+body::before {
+    content: "";
+    background-image: url(./photos/pic1.jpeg);
+    filter: blur(4px);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.rectangle1-container {
+    width: 100%;
+    display: flex;
+    overflow: auto;
+    min-height: 100vh;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .rectangle1-container1 {
+    top: 80px;
+    width: 100%;
+    height: 190px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    align-items: center;
+  }
+  .rectangle1-text {
+    margin-top: 10px;
+    margin-left: 550px;
+    position: absolute;
+    font-size: 60px;
+    color: white;
+  }
+  
+  .rectangle1-text02 {
+    margin-top: 110px;
+    margin-left: 620px;
+    position: absolute;
+    font-size: 30px;
+    color: white;
+  }
+  
+  .rectangle1-container2 {
+    top: 321px;
+    width: 100%;
+    height: 330px;
+    display: flex;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .rectangle1-container3 {
+    top: 5px;
+    left: 404px;
+    width: 227px;
+    height: 283px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 10px;
+  }
+  .rectangle1-svg {
+    width: 100%;
+    height: 110px;
+    margin-top: 40px;
+    object-fit: cover;
+  }
+  .rectangle1-text04 {
+    top: 166px;
+    left: 45px;
+    position: absolute;
+    font-style: normal;
+    font-weight: 700;
+    color: gray;
+  }
+  .rectangle1-text05 {
+    top: 195px;
+    left: 15px;
+    position: absolute;
+    text-align: center;
+    color: gray;
+  }
+  .rectangle1-container4 {
+    top: 5px;
+    left: 700px;
+    width: 227px;
+    bottom: 11px;
+    height: 283px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 10px;
+  }
+ 
+  .rectangle1-text09 {
+    top: 166px;
+    left: 45px;
+    position: absolute;
+    font-style: normal;
+    font-weight: 700;
+    color: gray;
+  }
+  .rectangle1-text10 {
+    top: 195px;
+    left: 10px;
+    position: absolute;
+    text-align: center;
+    color: gray;
+  }
+  .rectangle1-container5 {
+    top: 5px;
+    right: 300px;
+    width: 227px;
+    height: 283px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 10px;
+  }
+ 
+  .rectangle1-text14 {
+    top: 166px;
+    left: 45px;
+    position: absolute;
+    font-style: normal;
+    font-weight: 700;
+    color: gray;
+  }
+  .rectangle1-text15 {
+    top: 195px;
+    left: 10px;
+    position: absolute;
+    text-align: center;
+    color: gray;
+  }
+  
